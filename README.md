@@ -11,8 +11,10 @@ SyriaTel, a prominent telecommunications company, seeks to minimize customer chu
 In this project, we will work with a customer churn dataset from the telecom industry sourced from Kaggle. The dataset contains information about customers, their usage patterns, and whether they have churned or not. The dataset contains 3,333 records and spans 21 columns. 
 # Modeling
  The dataset is imbalanced, with only 14.5% of the data being classified as "churn" and 85.5% being classified as "not churn."
+ ![Image Alt]()
 
 My baseline model was LogisticRegression , just to test how my chosen attributes would perform on a basic level. I then  used models like the RandomForest and Decision trees
 # Evaluation
+![Image Alt]()
 AUC (Area Under the Curve) Scores:
 Logistic Regression (AUC = 0.83): Performs well but is outperformed by tree-based models. Decision Tree (AUC = 0.86): Better than logistic regression but still not the best. Random Forest (AUC = 0.93): The best-performing model, with the highest AUC, meaning it has the strongest ability to differentiate between classes![image](https://github.com/user-attachments/assets/211861ea-d892-49aa-b86f-3825ba4c761f)
