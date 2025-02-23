@@ -16,5 +16,6 @@ In this project, we will work with a customer churn dataset from the telecom ind
 My baseline model was LogisticRegression , just to test how my chosen attributes would perform on a basic level. I then  used models like the RandomForest and Decision trees
 # Evaluation
 ![Image Alt](https://github.com/dennismwau-1/SyriaTel-Customer-Churn-phase-3project-/blob/bbbdc823a2aefbac6675011653384998139e20e4/roc%20curve.PNG)
-AUC (Area Under the Curve) Scores:
+
+# AUC (Area Under the Curve) Scores
 Logistic Regression (AUC = 0.83): Performs well but is outperformed by tree-based models. Decision Tree (AUC = 0.86): Better than logistic regression but still not the best. Random Forest (AUC = 0.93): The best-performing model, with the highest AUC, meaning it has the strongest ability to differentiate between classes![image](https://github.com/user-attachments/assets/211861ea-d892-49aa-b86f-3825ba4c761f)
