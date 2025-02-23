@@ -11,7 +11,7 @@ SyriaTel, a prominent telecommunications company, seeks to minimize customer chu
 In this project, we will work with a customer churn dataset from the telecom industry sourced from Kaggle. The dataset contains information about customers, their usage patterns, and whether they have churned or not. The dataset contains 3,333 records and spans 21 columns. 
 # Modeling
  The dataset is imbalanced, with only 14.5% of the data being classified as "churn" and 85.5% being classified as "not churn."
- ![Image Alt]()
+ ![Image Alt](https://github.com/dennismwau-1/SyriaTel-Customer-Churn-phase-3project-/blob/32cf2f646b07ef1cb3b0e5ae0d245e89caa8f07a/churn%20rate.PNG)
 
 My baseline model was LogisticRegression , just to test how my chosen attributes would perform on a basic level. I then  used models like the RandomForest and Decision trees
 # Evaluation
